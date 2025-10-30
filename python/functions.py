@@ -1,5 +1,6 @@
 def square(x):
     return x * x
-
-for i in range(10):
+i = 0
+while i <10:
     print(f"The square of {i} is {square(i)}")
+    i +=1
